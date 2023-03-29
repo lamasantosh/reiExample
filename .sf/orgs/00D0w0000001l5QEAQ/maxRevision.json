@@ -1,0 +1,41 @@
+{
+  "serverMaxRevisionCounter": 10,
+  "sourceMembers": {
+    "CustomField__Student__c.Student_Name__c": {
+      "serverRevisionCounter": 1,
+      "lastRetrievedFromServer": 1,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomObject__Student__c": {
+      "serverRevisionCounter": 2,
+      "lastRetrievedFromServer": 2,
+      "memberType": "CustomObject",
+      "isNameObsolete": false
+    },
+    "LightningComponentBundle__webBodyComponent": {
+      "serverRevisionCounter": 7,
+      "lastRetrievedFromServer": 7,
+      "memberType": "LightningComponentBundle",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__webBodyComponent/webBodyComponent.js-meta.xml": {
+      "serverRevisionCounter": 8,
+      "lastRetrievedFromServer": 8,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__webBodyComponent/webBodyComponent.js": {
+      "serverRevisionCounter": 9,
+      "lastRetrievedFromServer": 9,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__webBodyComponent/webBodyComponent.html": {
+      "serverRevisionCounter": 10,
+      "lastRetrievedFromServer": 10,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    }
+  }
+}
