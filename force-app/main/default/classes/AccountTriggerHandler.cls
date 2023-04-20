@@ -1,9 +1,23 @@
 public class AccountTriggerHandler {
-        public static void preventDeletion(List<Account> accList){
+    public static void updateAccount(List<Account> accList, Map<Id, Account> accOldMap){
+        List<account> accToBeUpdated = new LIst<Account>();
+        
+        for(Account acc : accList){
+            Account a = new Account();
+            a.id = acc.Id;
+            a.Description = 'Test Recursion';
+            
+            accToBeUpdated.add(a);
+        }
+        if(!accToBeUpdated.isEmpty()){
+            update accToBeUpdated;
+        }
+    }
+    public static void preventDeletion(List<Account> accList){
         system.debug('inside preventDeletion');
         for(Account acc : accList){
             if(acc.Active__c == 'Yes'){
-                   acc.addError(Label.Prevent_Account_Deletion);   
+                acc.addError(Label.Prevent_Account_Deletion);   
             }
         }
     }
