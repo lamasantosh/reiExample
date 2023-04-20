@@ -6,10 +6,6 @@
         </types>
         <types>
             <members>*</members>
-            <name>LightningComponentBundle</name>
-        </types>
-        <types>
-            <members>*</members>
             <name>ApexClass</name>
         </types>
         <types>
@@ -19,6 +15,10 @@
         <types>
             <members>*</members>
             <name>ApexPage</name>
+        </types>
+        <types>
+            <members>MyTrigger</members>
+            <name>ApexTrigger</name>
         </types>
         <version>56.0</version>
 </Package>
